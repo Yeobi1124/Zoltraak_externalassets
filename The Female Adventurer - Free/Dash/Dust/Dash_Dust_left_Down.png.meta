@@ -1,14 +1,16 @@
 fileFormatVersion: 2
-guid: ebd0fad1f8519ac4fad952408262c97c
-AssetOrigin:
-  serializedVersion: 1
-  productId: 135185
-  packageName: 2D Hex Sprites - Hexagonal Tile Setup
-  packageVersion: 1.11
-  assetPath: Assets/HexSpriteTiles_Setup/SpriteSets/BigRock.png
-  uploadId: 308277
+guid: 6d9794ea486c3a449b885669bcf969dd
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2694494718689140067
+    second: Dash_Dust_left_Down_0
+  - first:
+      213: 800759427715676963
+    second: Dash_Dust_left_Down_1
+  - first:
+      213: 6573378452412889809
+    second: Dash_Dust_left_Down_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -50,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +72,9 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
@@ -86,7 +88,7 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -99,15 +101,81 @@ TextureImporter:
     overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Dash_Dust_left_Down_0
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 21
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d922e53545b3b9ad0800000000000000
+      internalID: -2694494718689140067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_Dust_left_Down_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 22
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bb987f47edc1b00800000000000000
+      internalID: 800759427715676963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash_Dust_left_Down_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 23
+        width: 104
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1daf64e00e4593b50800000000000000
+      internalID: 6573378452412889809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1695b34079cab384093e2d5408391b06
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -116,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dash_Dust_left_Down_0: -2694494718689140067
+      Dash_Dust_left_Down_1: 800759427715676963
+      Dash_Dust_left_Down_2: 6573378452412889809
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
